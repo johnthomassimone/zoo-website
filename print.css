@@ -1,0 +1,5 @@
+/* It is common to set printer friendly styles such as a white background with black text. */
+body { background-color: #fff; background-image: none; border-color: #000;
+	
+/* Sets the border color properties for an element using shorthand notation */
+color: #000; }

@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="UTF-8"><title>Distract of Columbia Zoo</title>
+	
+<style type="text/css" media="all">@import url("/CSS & Javascript/screen.css");</style><style type="text/css" media="print">@import url("/CSS & Javascript/print.css");</style><link href="/CSS & Javascript/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css"><script src="/CSS & Javascript/SpryMenuBar.js" type="text/javascript"></script></head>
+	
+<script language=JavaScript> var message="Don't have the right permission."; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; }} } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false")</script><body>
+		
+<!-- Navagation -->
+	
+<div id="outerWrapper"><div id="header"></div><div id="contentWrapper"><div id="content"><ul id="MenuBar1" class="MenuBarHorizontal"><li><a href="index.php">Home</a></li><li><a href="contact.php">Contact</a></li><li><a class="MenuBarItemSubmenu">Information</a><ul><li><a href="about-us.php">About Us</a></li></ul></li><li><a class="MenuBarItemSubmenu">Animals</a><ul><li><a href="tigers.php">Tigers</a></li><li><a href="cheetahs.php">Cheetahs</a></li><li><a href="lions.php">Lions</a></li><li><a href="elephants.php">Elephants</a></li><li><a href="pandas.php">Pandas</a></li></ul></li><li></li></ul><h1>&nbsp;</h1><br><hr>
+	
+<!-- Main Contents -->	
+	
+<p id ="main_contents">There are many trails throughout the zoo. The first trail is the Great Cats which include Lions, and tigers. The second trail is<br><br><br>the Asian Elephant. The Third trail is African Savanna which includes the Cheetah. The Fourth trail that was explored was the<br><br><br>Great Apes and Other Primates which included the Gorilla. The last trail that was visited was the Giant Pandas which also<br><br><br>included the Red Pandas. Another area along the main area of the zoo was the Birds and Tortoises. There is also the Kid's Farm<br><br><br>which let the children touch the animals. The National Zoo has many different programs. One of these programs is Friends of<br><br><br>the National Zoo (FONZ). FONZ helps the zoo in animal care, science, sustainability and education. If you become a member of<br><br><br>FONZ, some of the benefits you will have is free parking, free subscription to Smithsonian Zoo magazine and calendar,<br><br><br>invitations to member-only events and exhibits, in park discounts and discounts at other zoos or aquariums nationwide. For<br><br><br>more information on FONZ and the National Zoo, contact our website at <a href="http://nationalzoo.si.edu/default.cfm?ref=index.htm">www.fonz.org</a>.</p></div></div>
+	
+<!-- Copyright Information -->
+	
+<div id="footer"><?php $Copyright = ("©"); $Year = date("Y"); echo "$Copyright $Year John Thomas Simone All Rights Reserved.";?></div></div><script type="text/javascript">var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"/CSS & Javascript/SpryMenuBarDownHover.gif", imgRight:"/CSS & Javascript/SpryMenuBarRight.gif"});</script></body></html>
